@@ -1,5 +1,6 @@
-package com.example.compact;
+package com.example.compact.disk;
 
+import com.example.compact.disk.config.DiskPlayerConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
