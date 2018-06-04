@@ -1,4 +1,4 @@
-package com.example.compact.disk;
+package com.example.compactdisk;
 
 import org.springframework.stereotype.Component;
 
@@ -6,10 +6,10 @@ import org.springframework.stereotype.Component;
 public class DiskPlayer implements CompactDisk{
 
     public void display(){
-        System.out.println("Displaying The Diskplayer");
+        System.out.println("DiskPlayer display() method");
     }
 
     public void playing(){
-        System.out.println("Playing the Music");
+        System.out.println("DiskPlayer playing() method");
     }
 }

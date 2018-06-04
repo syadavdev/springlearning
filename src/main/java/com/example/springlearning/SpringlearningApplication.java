@@ -1,8 +1,8 @@
 package com.example.springlearning;
 
-import com.example.compact.disk.CompactDisk;
-import com.example.compact.disk.DiskPlayer;
-import com.example.compact.disk.config.DiskPlayerConfig;
+import com.example.compactdisk.CompactDisk;
+import com.example.compactdisk.DiskPlayer;
+import com.example.compactdisk.config.DiskPlayerConfig;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -15,6 +15,7 @@ public class SpringlearningApplication {
 
 		CompactDisk cd = ctx.getBean(CompactDisk.class);
 		DiskPlayer dp = (DiskPlayer) cd;
+
 		cd.display();
 		dp.playing();
 	}

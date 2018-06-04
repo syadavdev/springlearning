@@ -1,9 +1,9 @@
-package com.example.compact.disk;
+package com.example.compactdisk.cdPlayer;
 
-import com.example.compact.disk.config.DiskPlayerConfig;
+import com.example.compactdisk.config.DiskPlayerConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.mockito.InjectMocks;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -11,14 +11,14 @@ import static org.junit.Assert.assertNotNull;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = DiskPlayerConfig.class)
-public class DiskPlayerTest {
+public class CdPlayerTest {
 
-    @Autowired
-    private CompactDisk compactDisk;
+    @InjectMocks
+    private CdPlayer cdPlayer;
 
     @Test
-    public void shouldNotBeNull(){
-        assertNotNull(compactDisk);
+    public void shouldNotNull(){
+        assertNotNull(cdPlayer);
     }
 
 }

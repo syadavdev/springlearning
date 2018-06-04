@@ -1,4 +1,4 @@
-package com.example.compact.disk;
+package com.example.compactdisk;
 
 public interface CompactDisk {
 
