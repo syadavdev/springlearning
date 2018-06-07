@@ -1,18 +1,13 @@
 package com.springinaction.corespring;
 
-import com.springinaction.corespring.CompactDisk;
-import com.springinaction.corespring.config.DiskPlayerConfig;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import static org.junit.Assert.assertNotNull;
 
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = DiskPlayerConfig.class)
+/*@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration
 public class DiskPlayerTest {
 
     @Autowired
@@ -23,4 +18,4 @@ public class DiskPlayerTest {
         assertNotNull(compactDisk);
     }
 
-}
+}*/
