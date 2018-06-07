@@ -1,8 +1,9 @@
-package com.example.springlearning;
+package com.springinaction.springlearning;
 
-import com.example.compactdisk.CompactDisk;
-import com.example.compactdisk.DiskPlayer;
-import com.example.compactdisk.config.DiskPlayerConfig;
+import com.springinaction.corespring.CompactDisk;
+import com.springinaction.corespring.DiskPlayer;
+import com.springinaction.corespring.config.DiskPlayerConfig;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

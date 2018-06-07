@@ -1,4 +1,4 @@
-package com.example.compactdisk;
+package com.springinaction.corespring;
 
 public interface CompactDisk {
 

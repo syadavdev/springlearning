@@ -1,6 +1,8 @@
-package com.example.compactdisk;
+package com.springinaction.corespring;
 
-import com.example.compactdisk.config.DiskPlayerConfig;
+import com.springinaction.corespring.CompactDisk;
+import com.springinaction.corespring.config.DiskPlayerConfig;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
